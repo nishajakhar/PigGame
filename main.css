@@ -1,0 +1,141 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(img/back.jpg);
+}
+
+.pig{
+    text-align: center;
+    color: bisque;
+    font-family: cursive;
+    text-shadow: 5px 1px 5px deeppink;
+    font-size: 50px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+.main{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px 100px;
+    height: 500px;
+    box-shadow: 3px 3px 20px burlywood, -3px -3px 20px burlywood;
+    border-radius: 10px;
+    
+    
+}
+
+.player0{
+    flex-grow: 1;
+}
+
+.dice{
+    flex-grow: 1;
+}
+
+.player1{
+    flex-grow: 1;
+    
+}
+
+#score-0, #score-1{
+    font-size: 40px;
+}
+.player0 h1, .player1 h1{
+    font-family: cursive;
+    font-size: 40px;
+    color: darkgray;
+}
+
+.player0,.player1{
+    color: deeppink;
+    text-align: center;
+    font-family: cursive;
+    align-self: center;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+.dice{
+    align-self:center;
+    text-align: center;
+    
+}
+.scorecard{
+    display: inline-block;
+    width: 150px;
+    margin: 5px;
+    background-color: pink;
+    box-shadow: 3px 3px 20px;
+    border-radius: 10px;
+}
+
+button{
+    padding: 5px;
+    font-family: cursive;
+    font-size: 20px;
+    color: deeppink;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px deeppink;
+    width: 150px;
+    border: none;
+    display: block;
+    font-weight: bold;
+    align-items: center;
+    margin: 0px auto;
+    
+}
+
+.diceimg{
+    align-content: center;
+    margin: auto;
+    padding-top: 50px;;
+}
+.imgblock{
+    min-height: 300px;
+}
+
+.how{
+    position: absolute;
+    left: 1000px;
+    top: 20px;
+    right: 10px;
+}
+
+.header{
+    position: relative;
+}
+
+.active h1{
+    text-shadow: 3px 3px 10px ;
+    color: deeppink;
+}
+
+.active h1::after{
+    content: "\2022";
+    font-size: 47px;
+    position : absolute;
+    color: deeppink;
+}
+
+.winner h1{
+    text-shadow: 3px 3px 10px ;
+    color: deeppink;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+button:hover{
+    box-shadow: 2px 2px 10px white;
+}
+
+footer h1{
+    color: bisque;
+    text-shadow: 3px 3px 5px deeppink;
+    text-align: center;
+    font-family: cursive;
+    font-size: 22px;
+}
